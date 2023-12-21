@@ -2,6 +2,7 @@ package umc.spring.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.data.annotation.Id;
 import umc.spring.domain.common.BaseEntity;
 import umc.spring.domain.mapping.MemberAgree;
 
@@ -15,6 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 public class Terms extends BaseEntity {
 
+    @jakarta.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

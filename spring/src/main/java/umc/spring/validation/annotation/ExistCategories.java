@@ -3,7 +3,6 @@ package umc.spring.validation.annotation;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 import umc.spring.validation.validator.CategoriesExistValidator;
-
 import java.lang.annotation.*;
 
 @Documented
