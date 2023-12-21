@@ -1,4 +1,10 @@
 package umc.spring.service.TempService;
 
-public interface TempCommandServiceImpl {
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
+public class TempCommandServiceImpl extends TempCommandService {
+
 }
